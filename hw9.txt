@@ -1,0 +1,4 @@
+f2 = open("output.csv", "w+")
+w = csv.writer(f2)
+for key, val in country_count.items():
+    w.writerow([key, val])
